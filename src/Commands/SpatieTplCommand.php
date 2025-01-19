@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace VitNasinec\SpatieTpl\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class SpatieTplCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'spatie-tpl';
 
     public $description = 'My command';
 

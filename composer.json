@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "vitnasinec/spatie-tpl",
+    "description": "This is my package spatie-tpl",
     "keywords": [
-        ":vendor_name",
+        "VitNasinec",
         "laravel",
-        ":package_slug"
+        "spatie-tpl"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/vitnasinec/spatie-tpl",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Vit Nasinec",
+            "email": "vitnasinec@VnM1pro.local",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "VitNasinec\\SpatieTpl\\": "src/",
+            "VitNasinec\\SpatieTpl\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "VitNasinec\\SpatieTpl\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "VitNasinec\\SpatieTpl\\SpatieTplServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "SpatieTpl": "VitNasinec\\SpatieTpl\\Facades\\SpatieTpl"
             }
         }
     },
